@@ -7,10 +7,10 @@ public class App {
             return num;
         }
         if(num > lista[meio]){
-            return buscaBinaria(lista, num, meio, lista.length);
+            return buscaBinaria(lista, num, meio, fim);
         }
         if(num < lista[meio]){
-            return buscaBinaria(lista, num, lista[ini], meio);
+            return buscaBinaria(lista, num, ini, meio);
         }
         return -1;
     }
