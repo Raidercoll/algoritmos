@@ -1,4 +1,4 @@
-public class stringRevursiva {
+public class Exercicio2 {
     public static String inverte(String str, int tam){
         if(tam ==0) return ""+ str.charAt(tam) +"";
         return str.charAt(tam) + inverte(str, tam-1);
